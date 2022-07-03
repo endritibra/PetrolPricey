@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://css.gg/calculator.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="modal-content">
+            
+            <p>Kalkulo cmimin per liter</p>
+            
+                <label for="cars">Zgjedh llojin : </label>
+                <select id="typeoff" name="lloji">
+                  <option value="dizel" id="dizelli">Dizel</option>
+                  <option value="petrol" id="petrolli">Petrol</option>
+                  <option value="gas" id='gasi'selected>Gas</option>
+                </select>
+                <label for="litra">Sa Litra</label>
+                <input type="text" id="litra">
+                <input type="submit" value="Kalkulo" id="dergo">
+                <div class="display"></div>
+          </div>
+    </div>
+    <nav>
+        <h2>Benzini.al</h2>
+
+    </nav>
+    
+    <div class="container">
+        <div class="item item1">
+               
+            <h3>Dizel</h3>
+            <p class='cmimi'>180 lek</p>
+            <p id="data2"></p>
+            <i class="gg-calculator"></i>Kalkulo 
+s        </div>
+        <div class="item item2">   <h3>Petrol</h3>
+            <p class="cmimi">200 lek</p>
+            <p id="data"></p>
+            <i class="gg-calculator"></i>Kalkulo 
+
+        </div>
+        <div class="item item3"><h3>Gas</h3>
+            <p class="cmimi">100 lek</p>
+            <p id="data1"></p>
+            <i class="gg-calculator"></i>Kalkulo
+
+
+        </div>
+    </div>
+
+
+
+    <footer>
+        <a href="">&#169;Benzina.al</a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
